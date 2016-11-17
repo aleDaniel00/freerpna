@@ -8511,16 +8511,19 @@ a#link_1 {
     color: #ececec;
     padding: 10px 90px;
     transition: all .5s cubic-bezier(0, 0, 0.08, 1.12);
+    margin: 2px;
 }
 
 a#link_2 {
     padding: 3px 90px;
     background: #737373;
+    margin: 2px;
 }
 
 a#link_3 {
     padding: 3px 90px;
     background: #737373;
+    margin: 2px;
 }
 
 .col.s12 {box-shadow: 0 2px 5px 0 rgba(0,0,0,0.50), 0 2px 10px 0 rgba(0, 0, 0, 0.15);}

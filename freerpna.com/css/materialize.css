@@ -2636,7 +2636,6 @@ ul.browser-default li {
 
 ul li {
   list-style-type: none;
-  padding: 2px;
 }
 
 a {
@@ -3384,7 +3383,6 @@ nav ul a span.badge {
 
 .center, .center-align {
   text-align: center;
-  width: 100%;
 }
 
 .left {
@@ -4149,7 +4147,7 @@ nav .brand-logo {
 nav .brand-logo.center {
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 @media only screen and (max-width: 992px) {
@@ -8531,4 +8529,9 @@ h3.center.borbotom {
     border-bottom: 1px solid #ddd;
     margin-bottom: 0;
     padding-bottom: 20px;
+}
+
+i.center.large.material-icons.pad {
+    padding: 15px 0 0;
+    width: 100%;
 }

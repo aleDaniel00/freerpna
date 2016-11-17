@@ -3572,6 +3572,7 @@ input[type=range] + .thumb {
   margin-left: auto;
   left: auto;
   right: auto;
+  text-align: center;
 }
 
 .row .col.offset-s1 {
@@ -3919,6 +3920,7 @@ input[type=range] + .thumb {
     margin-right: auto;
     left: auto;
     right: auto;
+    text-align: center;
   }
   .row .col.l4 {
     width: 33.3333333333%;
@@ -3937,6 +3939,7 @@ input[type=range] + .thumb {
     margin-left: 14%;
     left: auto;
     right: auto;
+    text-align: center;
   }
   .row .col.l7 {
     width: 58.3333333333%;

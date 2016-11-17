@@ -15,22 +15,24 @@
 <body>
     <nav class="transparent" role="navigation">
         <div class="nav-wrapper container">
-            <a id="logo-container" href="#" class="brand-logo">FREE RP NA</a>
+            <a id="logo-container" href="#" class="brand-logo center">FREE RP NA</a>
+            <ul class="left hide-on-med-and-down">
+                <li><a href="#testimonios" class="light">Testimonios</a></li>
+            </ul>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#">Testimonios</a></li>
-                <li><a href="redireccion.html">Redireccion</a></li>
+                <li><a href="#obtener" class="light">Obtener codigo</a></li>
             </ul>
 
             <ul id="nav-mobile" class="side-nav">
                 <li><a href="#testimonios">Testimonios</a></li>
-                <li><a href="redireccion.html">Redireccion</a></li>
+                <li><a href="#obtener">Obtener codigo</a></li>
             </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
         </div>
     </nav>
 
     <div id="index-banner" class="parallax-container">
-        <div class="parallax"><img class="responsive-img" src="background1.jpg" alt="Unsplashed background img 1"></div>
+        <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
     </div>
 
 
@@ -38,10 +40,13 @@
         <div class="section">
 
             <div class="row">
-                <div class="col s12 center">
-                    <h3><i class="mdi-content-send brown-text"></i></h3>
+                <div class="col s6 center">
+                    <i class="large material-icons">work</i>
                     <h4>¿Que hacemos?</h4>
                     <p class="center-align light">Generamos codigos de tarjetas de Riot Points aleatorios, entre una gran cantidad de codigos hay un porcentaje de codigos verdaderos, descubre si eres el afortunado.</p>
+                </div>
+                <div class="col s6 center">
+                    <i class="large material-icons">trending_up</i>     
                     <h4>¿Como funciona?</h4>
                     <p class="center-align light">Gracias al dinero que ingresa con la publicidad que ponemos en el sitio, vamos comprando y renovando los codigos para que siempre haya oportunidades de ganar!.
                         Simplemente haz click en los enlaces de abajo y automaticamente obtendras un codigo, sin encuestas ni vueltas.</p>
@@ -50,57 +55,98 @@
 
         </div>
     </div>
-
-
-
-    <div class="red s12">
+   
+    <div class="s12 codigos" id="obtener">
         <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">Obtener codigo</h5>
-                <p class="grey-text text-lighten-4">Haz click en los enlaces uno a la vez para obtener el codigo promocional de Riot Points.</p>
-                <p class="grey-text text-lighten-4">Cantidad de oportunidades: 5</p>
-
-
+            <div class="col s6 center">
+                <h3 class="white-text">Obtener codigos</h3>
+                <p class="white-text light">Haz click en los enlaces uno a la vez para obtener el codigo promocional de Riot Points.</p>
+                <p class="white-text light">Cantidad de oportunidades: 5</p>
             </div>
-            <div class="col l3 s12">
-                <h5 class="white-text">Enlaces</h5>
+            <div class="col s6 center">
+                <h3 class="white-text">Enlaces</h3>
                 <ul id="listaLinks">
-                    <li><a id="link_1" class="white-text" href="#">Link 1</a><span id="inactivo">ok</span></li>
-                    <li><a id="link_2" class="white-text" href="#" onclick="return false;">Link 2</a><span id="inactivo">ok</span></li>
-                    <li><a id="link_3" class="white-text" href="#" onclick="return false;">Link 3</a><span id="inactivo">ok</span></li>
+                    <li><a id="link_1" class="btn waves-effect waves-teal" href="#">Link 1</a><span id="inactivo"><i class="medium material-icons">done</i></span>
+                    <div class="preloader-wrapper medium active">
+                        <div class="spinner-layer spinner-green-only">
+                            <div class="circle-clipper left">
+                                <div class="circle"></div>
+                            </div>
+                            <div class="gap-patch">
+                                <div class="circle"></div>
+                            </div>
+                            <div class="circle-clipper right">
+                                <div class="circle"></div>
+                            </div>
+                        </div>
+                    </div></li>
+                    <li><a id="link_2" class="btn waves-effect waves-teal" href="#" onclick="return false;">Link 2</a><span id="inactivo">ok</span>
+                    <div class="preloader-wrapper small active">
+                        <div class="spinner-layer spinner-green-only">
+                            <div class="circle-clipper left">
+                                <div class="circle"></div>
+                            </div>
+                            <div class="gap-patch">
+                                <div class="circle"></div>
+                            </div>
+                            <div class="circle-clipper right">
+                                <div class="circle"></div>
+                            </div>
+                        </div>
+                    </div></li>
+                    <li><a id="link_3" class="btn waves-effect waves-teal" href="#" onclick="return false;">Link 3</a><span id="inactivo">ok</span>
+                    <div class="preloader-wrapper small active">
+                        <div class="spinner-layer spinner-green-only">
+                            <div class="circle-clipper left">
+                                <div class="circle"></div>
+                            </div>
+                            <div class="gap-patch">
+                                <div class="circle"></div>
+                            </div>
+                            <div class="circle-clipper right">
+                                <div class="circle"></div>
+                            </div>
+                        </div>
+                    </div></li>
                 </ul>
                 <div id="codigoTarj">
                     <p>codigo1</p>
                 </div>
             </div>
-
         </div>
     </div>
-    <div class="blue col s12">
+    <div class="white col s12">
         <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">Obtener oportunidades</h5>
-                <p class="grey-text text-lighten-4">Invita a un amigo a participar de nuestra pagina, cada invitacion son 3 nuevas oportunidades, utiliza el siguiente enlace de referido.</p>
-
-
+            <div class="col s6 center">
+                <i class="large material-icons">supervisor_account</i> 
+                <h4>Obtener oportunidades</h4>
+                <p class="gray-text light">Invita a un amigo a participar de nuestra pagina, cada invitacion son 3 nuevas oportunidades, utiliza el siguiente enlace de referido.</p>
             </div>
-            <div class="col l3 s12">
-                <h5 class="white-text">Enlace referido</h5>
-                <p>freerpna.com/refid=7312hdjsa</p>
+            <div class="col s6 center">
+                <i class="large material-icons">link</i> 
+                <h4>Enlace referido</h4>
+                <h5 class="referido light">freerpna.com/refid=7312hdjsa</h5>
             </div>
-
         </div>
     </div>
-
-    <footer class="page-footer teal">
-
-
-        <div class="footer-copyright">
-            <div class="container">
-                Made by <a class="brown-text text-lighten-3" href="http://danipe.com">Danipe</a>
-            </div>
-        </div>
-    </footer>
+    <div class="white container" id="testimonios">
+        <ul class="collapsible" data-collapsible="accordion">
+            <i class="center large material-icons">record_voice_over</i> 
+            <h3 class="center borbotom">Testimonios</h3>
+            <li class="col l3">
+                <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+                <div class="collapsible-body"><p class="white">Lorem ipsum dolor sit amet.</p></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                <div class="collapsible-body"><p class="white">Lorem ipsum dolor sit amet.</p></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                <div class="collapsible-body"><p class="white">Lorem ipsum dolor sit amet.</p></div>
+            </li>
+        </ul>
+    </div>
 
 
     <!--  Scripts-->
@@ -109,5 +155,4 @@
     <script src="js/init.js"></script>
     <script src="js/autor.js"></script>
 </body>
-
 </html>

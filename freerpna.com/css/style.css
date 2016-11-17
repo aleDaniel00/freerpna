@@ -20,18 +20,25 @@ p {
 }
 @media only screen and (min-width: 600px) {
   .parallax-container {
-    min-height: 210px;
+    min-height: 231px;
   }
 }
 
 @media only screen and (min-width: 992px) {
   .parallax-container {
-    min-height: 350px;
+    min-height: 320px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .parallax-container::after {
+    min-height: 200px;
   }
 }
 
 .parallax-container{
-  /* min-height: 124px; */
+  
+/* min-height: 150px; */
 }
 
   .parallax-container .section {
@@ -63,4 +70,8 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.parallax2.s12 {
+    max-height: 200px;
 }
